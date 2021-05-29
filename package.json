@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "git+https://github.com/unityswap/unity-swap-core.git",
+  "repository": "https://github.com/unityswap/ unityswap-sdk .git",
   "keywords": [
     "unityswap",
     "ethereum"
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@unityswap-libs/unity-swap-core": "^0.1.0",
+    "@unityswap-libs/unity-swap-core": "git+https://github.com/unityswap/unity-swap-core.git",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
