@@ -1,5 +1,5 @@
 {
-  "name": "@unityswap-libs/unity-swap-core",
+  "name": "@unityswap-libs/sdk",
   "license": "MIT",
   "version": "1.0.1",
   "description": "🛠 An SDK for building applications on top of unityswap.",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/unityswap/ unityswap-sdk .git",
+  "repository": "https://github.com/unityswap/unityswap-sdk.git",
   "keywords": [
     "unityswap",
     "ethereum"
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@unityswap-libs/unity-swap-core": "git+https://github.com/unityswap/unity-swap-core.git",
+    "@unityswap-libs/unity-swap-core": "git+https://unityswap@github.com/unityswap/unity-swap-core.git",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
